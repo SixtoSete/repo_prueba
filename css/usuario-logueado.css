@@ -1,7 +1,7 @@
 #info-usuario {
     width: 320px;
     height: 110px;
-    background-color: rgba(209, 28, 170, 0.801);
+    background: rgba(17, 17, 17, 0.842);
     color: #fff;
     top: 20%;
     left: 87%;
@@ -9,7 +9,6 @@
     transform: translate(-50%, -50%);
     box-sizing: border-box;
     padding: 10px 30px;
-    border-radius: 5%;
     z-index: 10;
     position: fixed;
 }
@@ -26,7 +25,6 @@
     width: 30%;
     font-family: sans-serif;
     border: none;
-    border-radius: 15%;
     height: 25px;
     background: rgba(172, 159, 169, 0.801);
     font-size: 18px;
@@ -35,6 +33,6 @@
 
 #info-usuario button:hover {
     cursor: pointer;
-    background: rgba(65, 60, 64, 0.801);
-    color: rgba(226, 216, 224, 0.801);
+    background: rgba(255, 255, 255, 0.918);
+    color: rgba(22, 22, 22, 0.801);
 }

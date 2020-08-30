@@ -13,6 +13,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="css/usuario-logueado.css">
+    <link rel="stylesheet" href="css/filtros-style.css">
   </head>
   <body>
     <div id="info-usuario" style="display: none;">
@@ -30,14 +31,14 @@
       </div>
     </nav>
     <div id="filtros" style="padding-left: 10px;">
-      <h1 style="font-size: 30px;">Ordenar por:</h1>
+      <h1 style="font-size: 23px;">Ordenar por:</h1>
       <button id="ascendente">Menor precio</button>
       <button id="descendente">Mayor precio</button>
-      <button id="relevancia">Relevancia</button><br>
-      <p>Filtrar por precio:</p>
+      <button id="relevancia">Relevancia</button><br><br>
+      <label for="min-cost" style="font-size: 20px;">Filtrar por precio:</label>
       <input type="number" placeholder="mín" id="min-cost">
       <input type="number" placeholder="máx" id="max-cost">
-      <button id="filtrar">Filtrar</button>
+      <button id="filtrar"> Filtrar </button>
       <button id="limpiar">Limpiar</button>
     </div>
     <div class="container p-5" id="info">
