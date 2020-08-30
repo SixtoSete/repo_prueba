@@ -9,7 +9,7 @@ body {
 .loginbox {
     width: 320px;
     height: 420px;
-    background-color: rgba(209, 28, 170, 0.801);
+    background: rgba(17, 17, 17, 0.842);
     color: #fff;
     top: 50%;
     left: 50%;
@@ -17,7 +17,7 @@ body {
     transform: translate(-50%, -50%);
     box-sizing: border-box;
     padding: 70px 30px;
-    border-radius: 10%;
+    border-radius: 15%;
 }
 
 .avatar {
@@ -70,6 +70,6 @@ h1 {
 
 .loginbox button:hover{
     cursor: pointer;
-    background: rgba(65, 60, 64, 0.801);
-    color: rgba(226, 216, 224, 0.801);
+    background: rgba(216, 215, 215, 0.918);
+    color: rgba(22, 22, 22, 0.801);
 }
