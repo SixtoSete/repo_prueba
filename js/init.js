@@ -44,4 +44,20 @@ var getJSONData = function(url){
 //que el documento se encuentra cargado, es decir, se encuentran todos los
 //elementos HTML presentes.
 document.addEventListener("DOMContentLoaded", function(e){
+  let usuarioIngresado = localStorage.getItem("usuario-ingresado");
+  let infoUsuario = document.getElementById("info-usuario");
+  let usuario = document.getElementById("usuario");
+  let usuarioEmail = document.getElementById("email-usuario");
+
+  if(usuarioIngresado){
+    usuarioIngresado = JSON.parse(usuarioIngresado);
+    usuario.innerText = usuario.innerText + "Nombre de usuario: " + usuarioIngresado.usuario;
+    usuarioEmail.innerText = usuarioEmail.innerText + "E-mail: " + usuarioIngresado.email;
+    infoUsuario.style = "display: inline-block";
+  }
+
+  document.getElementById("salir").addEventListener("click", function(){
+    localStorage.removeItem("usuario-ingresado");
+    window.location = "index.html"
+  })
 });

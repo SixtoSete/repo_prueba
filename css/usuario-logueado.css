@@ -1,0 +1,40 @@
+#info-usuario {
+    width: 320px;
+    height: 110px;
+    background-color: rgba(209, 28, 170, 0.801);
+    color: #fff;
+    top: 20%;
+    left: 87%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 10px 30px;
+    border-radius: 5%;
+    z-index: 10;
+    position: fixed;
+}
+
+#info-usuario p {
+    margin-bottom: 10px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+#info-usuario button {
+    margin-top: 10px;
+    width: 30%;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 15%;
+    height: 25px;
+    background: rgba(172, 159, 169, 0.801);
+    font-size: 18px;
+    color: #fff;
+}
+
+#info-usuario button:hover {
+    cursor: pointer;
+    background: rgba(65, 60, 64, 0.801);
+    color: rgba(226, 216, 224, 0.801);
+}
